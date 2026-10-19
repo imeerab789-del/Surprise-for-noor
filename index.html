@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>A Little World Made Just for You ♡</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Dancing+Script:wght@600&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<canvas id="fx" aria-hidden="true"></canvas>
+<section id="gate"><p class="script">for my favorite person</p><h1>A Little World Made Just for You ♡</h1><button id="open" class="btn">Open Your Surprise 🎀</button></section>
+<nav id="nav" aria-label="Sections" hidden></nav>
+<main id="app" hidden>
+<section id="hero"><p class="script">Happy Birthday,</p><h1 id="name"></h1><p id="age"></p><button class="btn" id="begin">Begin the journey ↓</button></section>
+<section id="gallery"><h2>Our Favorite Memories</h2><div id="polas"></div><button id="slide" class="btn ghost">▶ Play slideshow</button></section>
+<section id="timeline"><h2>Little Moments, Big Memories</h2><ol id="tl"></ol></section>
+<section id="letter"><h2>A Heartfelt Letter</h2><button id="env" aria-label="Open the letter"><i class="flap"></i><i class="seal">♥</i></button><article id="paper" hidden></article></section>
+<section id="reasons"><h2>Reasons Why You're So Special</h2><p id="rc"></p><div id="rg"></div></section>
+<section id="secrets"><h2>Secret Surprises</h2><div id="sg"></div><button id="gift" aria-label="Open the gift box"><i class="lid"></i><i class="box"></i></button><p id="giftmsg"></p></section>
+<section id="quiz"><h2>How Well Do You Know Us?</h2><div id="qb"></div></section>
+<section id="wall"><h2>Birthday Wish Wall</h2><div id="ws"></div><button id="conf" class="btn">Celebrate 🎉</button></section>
+<section id="final"><h2 class="glow" id="fl"></h2><p id="fs" class="script"></p><button id="replay" class="btn">Replay the magic ↺</button></section>
+</main>
+<div id="player" hidden><button id="pp" aria-label="Play or pause music">▶</button><div><b id="pt"></b><input id="pr" type="range" min="0" max="1000" value="0" aria-label="Song progress"></div></div>
+<div id="lb" hidden><button id="lx" aria-label="Close">✕</button><button id="lp" aria-label="Previous photo">‹</button><figure><img id="lbi" alt=""><figcaption id="lbc"></figcaption></figure><button id="ln" aria-label="Next photo">›</button></div>
+<div id="md" hidden role="dialog" aria-modal="true"><div><h3 id="mt"></h3><p id="mx"></p><button class="btn" id="mc">Close ♡</button></div></div>
+<audio id="aud" preload="none" loop></audio>
+<script src="config.js"></script><script src="script.js"></script></body></html>
